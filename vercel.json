@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @workspace/farminghave run build:vercel",
+  "outputDirectory": "artifacts/farminghave/dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
